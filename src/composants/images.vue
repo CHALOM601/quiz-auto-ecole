@@ -64,7 +64,7 @@ const etape = ref(0);
 const etat = ref("question");
 const reponses = ref([]);
 
-const tempsTotal = 1500;
+const tempsTotal = 15;
 const tempsRestant = ref(tempsTotal);
 
 let timer = null;
