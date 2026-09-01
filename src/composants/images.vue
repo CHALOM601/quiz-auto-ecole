@@ -15,9 +15,13 @@
   </div>
   <div v-if="etat === 'question'" class="container grid">
     <div class="image">
+      <p v-if="chargeImage">Chargement de l'image...</p>
       <img
         :src="`/images/${page.id}/${page.questions[etape].image}`"
         alt="Image question"
+        @load="chargeImage = true"
+        v-show="chargeImage"
+        @error="chargeImage = false"
       />
     </div>
     <div>
@@ -49,7 +53,7 @@ import Questions from "./questions.vue";
 import Recapitulatif from "./recapitulatif.vue";
 import Progress from "./progress.vue";
 
-
+const chargeImage = ref(false);
 const props = defineProps({
   page: Object,
 });

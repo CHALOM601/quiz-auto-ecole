@@ -179,7 +179,6 @@ h1{
 
 .premierePage button:hover{
   background:rgb(1, 114, 173, 0.5);
-  transform: scale(1.1);
   color:white;
 }
 
