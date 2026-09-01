@@ -15,7 +15,7 @@
   </div>
   <div v-if="etat === 'question'" class="container grid">
     <div class="image">
-      <h1 :aria-busy="chargeImage" v-if="!chargeImage">Chargement de l'image...</h1>
+      <h1 :aria-busy="!chargeImage" v-if="!chargeImage">Chargement de l'image...</h1>
       <img
         :src="`/images/${page.id}/${page.questions[etape].image}`"
         alt="Image question"
@@ -33,6 +33,8 @@
         @suivant="ajouterReponse"
         :retirerReponse="retirerReponse"
       />
+
+      {{ props.page.questions[etape].correct_answer }}
 
     </div>
   </div>
@@ -62,7 +64,7 @@ const etape = ref(0);
 const etat = ref("question");
 const reponses = ref([]);
 
-const tempsTotal = 15;
+const tempsTotal = 1500;
 const tempsRestant = ref(tempsTotal);
 
 let timer = null;
