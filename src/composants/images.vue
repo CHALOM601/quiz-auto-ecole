@@ -173,7 +173,7 @@ img {
 }
 
 .timer-bar {
-  width: 350px;
+  width: 250px;
   height: 10px;
   background: #b50d0d;
   border-radius: 20px;
