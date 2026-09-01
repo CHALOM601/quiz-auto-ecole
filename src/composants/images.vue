@@ -15,7 +15,7 @@
   </div>
   <div v-if="etat === 'question'" class="container grid">
     <div class="image">
-      <p v-if="!chargeImage">Chargement de l'image...</p>
+      <h1 :aria-busy="chargeImage" v-if="!chargeImage">Chargement de l'image...</h1>
       <img
         :src="`/images/${page.id}/${page.questions[etape].image}`"
         alt="Image question"
