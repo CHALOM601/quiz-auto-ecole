@@ -46,6 +46,9 @@
   />
 
 </template>
+
+
+
 <script setup>
 import { computed, ref, watch, onUnmounted } from "vue";
 import Questions from "./questions.vue";
@@ -67,6 +70,20 @@ const tempsRestant = ref(tempsTotal);
 
 let timer = null;
 
+function precharger(url) {
+  const img = new Image()
+  img.src = url
+}
+
+watch(() => etape.value, () => {
+  chargeImage.value = false
+  const prochaineEtape = etape.value + 1
+  const questionSuivante = props.page.questions[prochaineEtape]
+
+  if (questionSuivante) {
+    precharger(`/images/${props.page.id}/${questionSuivante.image}`)
+  }
+}, { immediate: true })
 
 const type = computed(() => {
   return props.page.questions[etape.value].type;
