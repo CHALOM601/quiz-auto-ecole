@@ -4924,7 +4924,8 @@
           "Je serre à droite sur la partie en terre.......................C"
         ],
         "correct_answer": [
-          "Je reste où je suis.......................B"
+          "Je ralentis.......................A",
+                    "Je serre à droite sur la partie en terre.......................C"
         ]
       },
       {
@@ -4937,7 +4938,7 @@
           "Je passe.......................B"
         ],
         "correct_answer": [
-          "Je m'arrête à la ligne d'effet du signal.......................A"
+          "Je passe.......................B"
         ]
       },
       {
@@ -4976,7 +4977,7 @@
           "Je cède le passage à gauche.......................B"
         ],
         "correct_answer": [
-          "Je cède le passage à gauche.......................B"
+          "Je passe.......................A"
         ]
       },
       {
@@ -4985,7 +4986,7 @@
         "image": "06.jpg",
         "type": "boolean",
         "correct_answer": [
-          "NON.......................B"
+          "OUI.......................A"
         ],
         "choices": [
           "OUI.......................A",
@@ -5060,15 +5061,29 @@
       },
       {
         "number": 11,
-        "question": "La chaussée est avec affectation de voies. Pour aller vers l'autoroute :",
+        "question": " ",
         "image": "11.jpg",
-        "type": "single_choice",
-        "choices": [
-          "je suis bien placé.......................A",
-          "je dois changer de voie.......................B"
+        "type": "multi_boolean",
+
+                "statements": [
+          {
+            "text": "",
+            "choices": [
+                        "LA chaussée est avec affectation de voies.......................A"
+            ]
+          },
+          {
+            "text": "Pour aller sur l'autoroute",
+            "choices": [
+              "je suis bien placé.......................B",
+              "NON.......................C"
+            ]
+          }
         ],
         "correct_answer": [
-          "je suis bien placé.......................A"
+      "LA chaussée est avec affectation de voies.......................A",
+      "je suis bien placé.......................B"
+      
         ]
       },
       {
@@ -5155,7 +5170,7 @@
         "image": "16.jpg",
         "type": "boolean",
         "correct_answer": [
-          "NON.......................B"
+          "OUI.......................A"
         ],
         "choices": [
           "OUI.......................A",
@@ -5168,7 +5183,7 @@
         "image": "17.jpg",
         "type": "multi_boolean",
         "correct_answer": [
-          "OUI.......................A",
+          "NON.......................B",
           "NON.......................D"
         ],
         "statements": [
@@ -5194,7 +5209,7 @@
         "image": "18.jpg",
         "type": "boolean",
         "correct_answer": [
-          "NON.......................B"
+          "OUI.......................A"
         ],
         "choices": [
           "OUI.......................A",
@@ -5207,8 +5222,8 @@
         "image": "19.jpg",
         "type": "multi_boolean",
         "correct_answer": [
-          "OUI.......................A",
-          "NON.......................D"
+          "NON.......................B",
+          "OUI.......................C"
         ],
         "statements": [
           {
@@ -5259,7 +5274,7 @@
         "image": "21.jpg",
         "type": "boolean",
         "correct_answer": [
-          "NON.......................B"
+          "OUI.......................A"
         ],
         "choices": [
           "OUI.......................A",
@@ -5270,42 +5285,16 @@
         "number": 22,
         "question": "Après les panneaux, il est interdit de dépasser :",
         "image": "22.jpg",
-        "type": "multi_boolean",
+        "type": "boolean",
         "correct_answer": [
-          "OUI.......................A",
-          "OUI.......................C",
-          "OUI.......................E",
-          "OUI.......................G"
+          "un camion......................................A",
+           "une moto avec un side-car......................D"
         ],
-        "statements": [
-          {
-            "text": "un camion",
-            "choices": [
-              "OUI.......................A",
-              "NON.......................B"
-            ]
-          },
-          {
-            "text": "un véhicule à deux roues",
-            "choices": [
-              "OUI.......................C",
-              "NON.......................D"
-            ]
-          },
-          {
-            "text": "un véhicule à traction animale",
-            "choices": [
-              "OUI.......................E",
-              "NON.......................F"
-            ]
-          },
-          {
-            "text": "une moto avec un side-car",
-            "choices": [
-              "OUI.......................G",
-              "NON.......................H"
-            ]
-          }
+                "choices": [
+          "un camion......................................A",
+          "un véhicule à deux roues.......................B",
+          "un véhicule à traction animale.................C",
+          "une moto avec un side-car......................D"
         ]
       },
       {
@@ -5327,8 +5316,8 @@
         "image": "24.jpg",
         "type": "multi_boolean",
         "correct_answer": [
-          "NON.......................B",
-          "NON.......................D"
+          "OUI.......................A",
+          "OUI.......................C"
         ],
         "statements": [
           {
@@ -5371,7 +5360,7 @@
           "le troisième.......................C"
         ],
         "correct_answer": [
-          "le troisième.......................C"
+          "le deuxième.......................B"
         ]
       },
       {
@@ -5380,7 +5369,7 @@
         "image": "27.jpg",
         "type": "boolean",
         "correct_answer": [
-          "NON.......................B"
+          "OUI.......................A"
         ],
         "choices": [
           "OUI.......................A",
@@ -5437,7 +5426,8 @@
           "Je laisserai un intervalle latéral d'au moins 0,50 m.......................C"
         ],
         "correct_answer": [
-          "Je ralentis.......................A"
+          "Je ralentis.......................A",
+          "Je dépasse.......................B"
         ]
       },
       {
@@ -5498,12 +5488,12 @@
         "image": "34.jpg",
         "type": "single_choice",
         "choices": [
-          "une rue à caractère prioritaire.......................A",
+          "une rue à caractère prioritaire..............................A",
           "obligation d'aller tout droit à la prochaine intersection.......................B",
           "un sens unique.......................C"
         ],
         "correct_answer": [
-          "un sens unique.......................C"
+          "obligation d'aller tout droit à la prochaine intersection.......................B"
         ]
       },
       {
@@ -5512,7 +5502,7 @@
         "image": "35.jpg",
         "type": "boolean",
         "correct_answer": [
-          "OUI.......................A"
+          "NON.......................B"
         ],
         "choices": [
           "OUI.......................A",
@@ -5525,8 +5515,8 @@
         "image": "36.jpg",
         "type": "multi_boolean",
         "correct_answer": [
-          "OUI.......................A",
-          "NON.......................D"
+          "NON.......................B",
+          "OUI.......................C"
         ],
         "statements": [
           {
@@ -5635,7 +5625,7 @@
         "image": "01.jpg",
         "type": "boolean",
         "correct_answer": [
-          "NON.......................B"
+          "OUI.......................A"
         ],
         "choices": [
           "OUI.......................A",
@@ -5646,42 +5636,17 @@
         "number": 2,
         "question": "Concernant la circulation :",
         "image": "02.jpg",
-        "type": "multi_boolean",
+        "type": "boolean",
         "correct_answer": [
-          "OUI.......................A",
-          "NON.......................D",
-          "NON.......................F",
-          "NON.......................H"
+          "Je me dirige vers une autoroute.......................A",
+                    "Je circule sur une route.......................C",
+          "La vitesse est limitée à 90 km/h.......................D"
         ],
-        "statements": [
-          {
-            "text": "Je me dirige vers une autoroute",
-            "choices": [
-              "OUI.......................A",
-              "NON.......................B"
-            ]
-          },
-          {
-            "text": "Je circule déjà sur une autoroute",
-            "choices": [
-              "OUI.......................C",
-              "NON.......................D"
-            ]
-          },
-          {
-            "text": "Je circule sur une route",
-            "choices": [
-              "OUI.......................E",
-              "NON.......................F"
-            ]
-          },
-          {
-            "text": "La vitesse est limitée à 90 km/h",
-            "choices": [
-              "OUI.......................G",
-              "NON.......................H"
-            ]
-          }
+                "choices": [
+          "Je me dirige vers une autoroute.......................A",
+          "Je circule déjà sur une autoroute.......................B",
+          "Je circule sur une route.......................C",
+          "La vitesse est limitée à 90 km/h.......................D"
         ]
       },
       {
@@ -5703,7 +5668,7 @@
         "image": "04.jpg",
         "type": "multi_boolean",
         "correct_answer": [
-          "NON.......................B",
+          "OUI.......................A",
           "OUI.......................C"
         ],
         "statements": [
@@ -5735,41 +5700,25 @@
           "pour dépasser.......................D"
         ],
         "correct_answer": [
-          "en marche normale.......................A"
+          "pour tourner à gauche.......................B",
+          "pour dépasser.......................D"
         ]
       },
       {
         "number": 6,
         "question": "Concernant la route et la priorité :",
         "image": "06.jpg",
-        "type": "multi_boolean",
+        "type": "boolean",
         "correct_answer": [
-          "NON.......................B",
-          "OUI.......................C",
-          "NON.......................F"
+          "Je circule sur une route départementale.......................A",
+          "Je circule sur une route prioritaire.......................B",
+                    "je cèderai le passage à gauche.......................D"
         ],
-        "statements": [
-          {
-            "text": "Je circule sur une route départementale",
-            "choices": [
-              "OUI.......................A",
-              "NON.......................B"
-            ]
-          },
-          {
-            "text": "Je circule sur une route prioritaire",
-            "choices": [
-              "OUI.......................C",
-              "NON.......................D"
-            ]
-          },
-          {
-            "text": "Je cèderai le passage à droite",
-            "choices": [
-              "OUI.......................E",
-              "NON.......................F"
-            ]
-          }
+                "choices": [
+          "Je circule sur une route départementale.......................A",
+          "Je circule sur une route prioritaire.......................B",
+          "Je cèderai le passage à droite.......................C",
+          "je cèderai le passage à gauche.......................D"
         ]
       },
       {
@@ -5782,7 +5731,7 @@
           "Je cède le passage.......................B"
         ],
         "correct_answer": [
-          "Je cède le passage.......................B"
+               "Je passe.......................A"
         ]
       },
       {
@@ -5791,13 +5740,13 @@
         "image": "08.jpg",
         "type": "single_choice",
         "choices": [
-          "à droite.......................A",
-          "tout droit.......................B",
-          "à gauche.......................C",
+          "à droite..........................A",
+          "tout droit........................B",
+          "à gauche..........................C",
           "Je m'arrête.......................D"
         ],
         "correct_answer": [
-          "à droite.......................A"
+          "Je m'arrête.......................D"
         ]
       },
       {
@@ -5817,34 +5766,14 @@
         "number": 10,
         "question": "Sur cette route, je pourrai rencontrer :",
         "image": "10.jpg",
-        "type": "multi_boolean",
+        "type": "boolean",
         "correct_answer": [
-          "OUI.......................A",
-          "OUI.......................C",
-          "OUI.......................E"
+"des motos avec ou sans side-car............C"
         ],
-        "statements": [
-          {
-            "text": "des piétons",
-            "choices": [
-              "OUI.......................A",
-              "NON.......................B"
-            ]
-          },
-          {
-            "text": "des voiturettes",
-            "choices": [
-              "OUI.......................C",
-              "NON.......................D"
-            ]
-          },
-          {
-            "text": "des motos avec ou sans side-car",
-            "choices": [
-              "OUI.......................E",
-              "NON.......................F"
-            ]
-          }
+                "choices": [
+          "des piétons................................A",
+          "des voiturettes............................B",
+          "des motos avec ou sans side-car............C"
         ]
       },
       {
@@ -5880,7 +5809,7 @@
         "image": "13.jpg",
         "type": "boolean",
         "correct_answer": [
-          "NON.......................B"
+          "OUI.......................A"
         ],
         "choices": [
           "OUI.......................A",
@@ -5894,7 +5823,7 @@
         "type": "multi_boolean",
         "correct_answer": [
           "OUI.......................A",
-          "NON.......................D"
+          "OUI.......................C"
         ],
         "statements": [
           {
@@ -5920,10 +5849,10 @@
         "type": "single_choice",
         "choices": [
           "Je passe.......................A",
-          "Je cède le passage.......................B"
+          "Je cède le passage.............B"
         ],
         "correct_answer": [
-          "Je cède le passage.......................B"
+          "Je passe.......................A"
         ]
       },
       {
@@ -5947,7 +5876,7 @@
         "image": "17.jpg",
         "type": "boolean",
         "correct_answer": [
-          "NON.......................B"
+          "OUI.......................A"
         ],
         "choices": [
           "OUI.......................A",
@@ -5960,7 +5889,7 @@
         "image": "18.jpg",
         "type": "multi_boolean",
         "correct_answer": [
-          "NON.......................B",
+          "OUI.......................A",
           "NON.......................D"
         ],
         "statements": [
@@ -6038,8 +5967,8 @@
         "image": "22.jpg",
         "type": "multi_boolean",
         "correct_answer": [
-          "OUI.......................A",
-          "OUI.......................C"
+          "NON.......................B",
+          "NON.......................D"
         ],
         "statements": [
           {
@@ -6064,7 +5993,7 @@
         "image": "23.jpg",
         "type": "boolean",
         "correct_answer": [
-          "NON.......................B"
+          "OUI.......................A"
         ],
         "choices": [
           "OUI.......................A",
@@ -6077,7 +6006,7 @@
         "image": "24.jpg",
         "type": "multi_boolean",
         "correct_answer": [
-          "NON.......................B",
+          "OUI.......................A",
           "NON.......................D"
         ],
         "statements": [
@@ -6107,7 +6036,7 @@
           "Le conducteur devant moi doit avancer pour me laisser passer.......................B"
         ],
         "correct_answer": [
-          "Le conducteur devant moi doit avancer pour me laisser passer.......................B"
+"Je dois attendre pour tourner à droite.......................A"
         ]
       },
       {
@@ -6122,7 +6051,8 @@
           "que la vitesse est limitée à 70 km/h.......................D"
         ],
         "correct_answer": [
-          "la fin de la route prioritaire.......................C"
+          "le début de la route prioritaire.......................A",
+          "le rappel de la route prioritaire.......................B"
         ]
       },
       {
@@ -6189,7 +6119,7 @@
           "le 21 du mois.......................D"
         ],
         "correct_answer": [
-          "le 2 du mois.......................A"
+          "le 21 du mois.......................D"
         ]
       },
       {
@@ -6229,7 +6159,7 @@
           "Je m'arrête.......................B"
         ],
         "correct_answer": [
-          "Je m'arrête.......................B"
+          "Je passe.......................A"
         ]
       },
       {
@@ -6238,8 +6168,8 @@
         "image": "34.jpg",
         "type": "multi_boolean",
         "correct_answer": [
-          "OUI.......................A",
-          "NON.......................D"
+          "NON.......................B",
+          "OUI.......................C"
         ],
         "statements": [
           {
@@ -6264,7 +6194,7 @@
         "image": "35.jpg",
         "type": "boolean",
         "correct_answer": [
-          "NON.......................B"
+          "OUI.......................A"
         ],
         "choices": [
           "OUI.......................A",
@@ -6278,7 +6208,7 @@
         "type": "multi_boolean",
         "correct_answer": [
           "NON.......................B",
-          "OUI.......................C"
+          "NON.......................D"
         ],
         "statements": [
           {
@@ -6386,69 +6316,32 @@
         "number": 1,
         "question": "Ce panneau annonce le passage éventuel :",
         "image": "01.jpg",
-        "type": "multi_boolean",
+        "type": "boolean",
         "correct_answer": [
-          "NON.......................B",
-          "OUI.......................C"
+"d'animaux domestiques.......................A"
         ],
-        "statements": [
-          {
-            "text": "d'animaux domestiques",
             "choices": [
-              "OUI.......................A",
-              "NON.......................B"
+              "d'animaux domestiques.......................A",
+              "d'animaux sauvages.......................B"
             ]
-          },
-          {
-            "text": "d'animaux sauvages",
-            "choices": [
-              "OUI.......................C",
-              "NON.......................D"
-            ]
-          }
-        ]
       },
       {
         "number": 2,
         "question": "La signalisation m'annonce :",
         "image": "02.jpg",
-        "type": "multi_boolean",
+        "type": "boolean",
         "correct_answer": [
           "OUI.......................A",
           "OUI.......................C",
           "NON.......................F",
           "NON.......................H"
         ],
-        "statements": [
-          {
-            "text": "une intersection",
-            "choices": [
-              "OUI.......................A",
-              "NON.......................B"
+                    "choices": [
+              "une intersection.......................A",
+              "la perte de priorité de la route .......................B",
+              "un carrefour à sens giratoire.......................C",
+              "priorité à droite.......................D"
             ]
-          },
-          {
-            "text": "la perte de priorité de la route",
-            "choices": [
-              "OUI.......................C",
-              "NON.......................D"
-            ]
-          },
-          {
-            "text": "un carrefour à sens giratoire",
-            "choices": [
-              "OUI.......................E",
-              "NON.......................F"
-            ]
-          },
-          {
-            "text": "priorité à droite",
-            "choices": [
-              "OUI.......................G",
-              "NON.......................H"
-            ]
-          }
-        ]
       },
       {
         "number": 3,
@@ -6469,8 +6362,8 @@
         "image": "04.jpg",
         "type": "multi_boolean",
         "correct_answer": [
-          "OUI.......................A",
-          "NON.......................D"
+          "NON.......................B",
+          "OUI.......................C"
         ],
         "statements": [
           {
@@ -6499,41 +6392,21 @@
           "Je cède le passage.......................B"
         ],
         "correct_answer": [
-          "Je cède le passage.......................B"
+          "Je passe.......................A"
         ]
       },
       {
         "number": 6,
         "question": "La signalisation m'annonce :",
         "image": "06.jpg",
-        "type": "multi_boolean",
+        "type": "boolean",
         "correct_answer": [
-          "OUI.......................A",
-          "OUI.......................C",
-          "NON.......................F"
+"un îlot directionnel.......................A"
         ],
-        "statements": [
-          {
-            "text": "un îlot directionnel",
-            "choices": [
-              "OUI.......................A",
-              "NON.......................B"
-            ]
-          },
-          {
-            "text": "vitesse limitée à 60 km/h",
-            "choices": [
-              "OUI.......................C",
-              "NON.......................D"
-            ]
-          },
-          {
-            "text": "un passage à niveau à 50 mètres",
-            "choices": [
-              "OUI.......................E",
-              "NON.......................F"
-            ]
-          }
+                "choices": [
+          "un îlot directionnel.......................A",
+          "vitesse limitée à 60 km/h.......................B",
+            "un passage à niveau à 50 mètres.......................C"
         ]
       },
       {
@@ -6542,7 +6415,7 @@
         "image": "07.jpg",
         "type": "boolean",
         "correct_answer": [
-          "NON.......................B"
+          "OUI.......................A"
         ],
         "choices": [
           "OUI.......................A",
@@ -6626,7 +6499,8 @@
           "je m'arrête et je passe.......................C"
         ],
         "correct_answer": [
-          "je cède le passage à gauche et à droite.......................A"
+          "je cède le passage à gauche et à droite.......................A",
+          "je m'arrête et je passe.......................C"
         ]
       },
       {
@@ -6635,7 +6509,7 @@
         "image": "13.jpg",
         "type": "boolean",
         "correct_answer": [
-          "NON.......................B"
+          "OUI.......................A"
         ],
         "choices": [
           "OUI.......................A",
@@ -6653,7 +6527,8 @@
           "je suis prioritaire.......................C"
         ],
         "correct_answer": [
-          "je cèderai le passage en face.......................A"
+          "je ne cèderai pas le passage.......................B",
+          "je suis prioritaire.......................C"
         ]
       },
       {
@@ -6684,7 +6559,7 @@
       },
       {
         "number": 16,
-        "question": "À cette intersection :",
+        "question": " ",
         "image": "16.jpg",
         "type": "single_choice",
         "choices": [
@@ -6692,7 +6567,7 @@
           "Je cède le passage.......................B"
         ],
         "correct_answer": [
-          "Je cède le passage.......................B"
+          "Je passe.......................A"
         ]
       },
       {
@@ -6706,7 +6581,8 @@
           "je dois céder le passage.......................C"
         ],
         "correct_answer": [
-          "je dois céder le passage.......................C"
+          "je peux utiliser l'avertisseur sonore.......................A",
+          "je poursuis mon dépassement.......................B"
         ]
       },
       {
@@ -6715,7 +6591,7 @@
         "image": "18.jpg",
         "type": "boolean",
         "correct_answer": [
-          "OUI.......................A"
+          "NON.......................B"
         ],
         "choices": [
           "OUI.......................A",
@@ -6758,7 +6634,7 @@
           "Je reste derrière le tracteur.......................B"
         ],
         "correct_answer": [
-          "Je reste derrière le tracteur.......................B"
+          "Je dépasse.......................A"
         ]
       },
       {
@@ -6804,34 +6680,17 @@
         "number": 24,
         "question": "Concernant la route :",
         "image": "24.jpg",
-        "type": "multi_boolean",
+        "type": "boolean",
         "correct_answer": [
-          "OUI.......................A",
-          "OUI.......................C",
-          "NON.......................F"
+          "La route est nationale.......................A",
+          "La route est à caractère prioritaire.......................B",
+          "La vitesse est limitée à 90 km/h  - OUI.....................C"
         ],
-        "statements": [
-          {
-            "text": "La route est nationale",
-            "choices": [
-              "OUI.......................A",
-              "NON.......................B"
-            ]
-          },
-          {
-            "text": "La route est à caractère prioritaire",
-            "choices": [
-              "OUI.......................C",
-              "NON.......................D"
-            ]
-          },
-          {
-            "text": "La vitesse va être limitée à 90 km/h",
-            "choices": [
-              "OUI.......................E",
-              "NON.......................F"
-            ]
-          }
+                "choices": [
+          "La route est nationale.......................A",
+          "La route est à caractère prioritaire.......................B",
+          "La vitesse est limitée à 90 km/h  - OUI.....................C",
+          "La vitesse est limitée à 90 km/h  - NON.....................D"
         ]
       },
       {
@@ -6840,7 +6699,7 @@
         "image": "25.jpg",
         "type": "boolean",
         "correct_answer": [
-          "NON.......................B"
+          "OUI.......................A"
         ],
         "choices": [
           "OUI.......................A",
@@ -6854,7 +6713,7 @@
         "type": "multi_boolean",
         "correct_answer": [
           "OUI.......................A",
-          "NON.......................D"
+          "OUI.......................C"
         ],
         "statements": [
           {
@@ -6892,7 +6751,7 @@
         "image": "28.jpg",
         "type": "multi_boolean",
         "correct_answer": [
-          "NON.......................B",
+          "OUI.......................A",
           "OUI.......................C"
         ],
         "statements": [
@@ -6929,34 +6788,15 @@
         "number": 30,
         "question": "Les chevrons bleus et blancs indiquent :",
         "image": "30.jpg",
-        "type": "multi_boolean",
+        "type": "boolean",
         "correct_answer": [
-          "NON.......................B",
-          "NON.......................D",
-          "OUI.......................E"
+"un virage dangereux à 150m  -NON.....................D"
         ],
-        "statements": [
-          {
-            "text": "un rétrécissement de chaussée",
-            "choices": [
-              "OUI.......................A",
-              "NON.......................B"
-            ]
-          },
-          {
-            "text": "que la chaussée devient à sens unique",
-            "choices": [
-              "OUI.......................C",
-              "NON.......................D"
-            ]
-          },
-          {
-            "text": "un virage dangereux à 150m",
-            "choices": [
-              "OUI.......................E",
-              "NON.......................F"
-            ]
-          }
+                "choices": [
+          "un rétrécissement de chaussée.......................A",
+          "que la chaussée devient à sens unique.......................B",
+          "un virage dangereux à 150m  -OUI.....................C",
+          "un virage dangereux à 150m  -NON.....................D"
         ]
       },
       {
@@ -6965,7 +6805,7 @@
         "image": "31.jpg",
         "type": "boolean",
         "correct_answer": [
-          "NON.......................B"
+          "OUI.......................A"
         ],
         "choices": [
           "OUI.......................A",
@@ -6983,7 +6823,7 @@
           "Je m'arrête.......................C"
         ],
         "correct_answer": [
-          "Je m'arrête.......................C"
+          "Je ralentis et je passe.......................A"
         ]
       },
       {
@@ -6992,7 +6832,7 @@
         "image": "33.jpg",
         "type": "boolean",
         "correct_answer": [
-          "NON.......................B"
+          "OUI.......................A"
         ],
         "choices": [
           "OUI.......................A",
@@ -7031,7 +6871,7 @@
         "image": "35.jpg",
         "type": "boolean",
         "correct_answer": [
-          "NON.......................B"
+          "OUI.......................A"
         ],
         "choices": [
           "OUI.......................A",
@@ -7044,8 +6884,8 @@
         "image": "36.jpg",
         "type": "multi_boolean",
         "correct_answer": [
-          "OUI.......................A",
-          "NON.......................D"
+          "NON.......................B",
+          "OUI.......................C"
         ],
         "statements": [
           {
@@ -7105,25 +6945,27 @@
       },
       {
         "number": 39,
-        "question": "Je suis en infraction si, sur un de mes pneus, il existe",
-        "image": "39.jpg",
+        "question": "Je suis en infraction si, sur un de mes pneus, il existe plus d'un point où la profondeur des rainures principales est :",
+        "image": "39.jpeg",
         "type": "single_choice",
         "choices": [
-          "une usure excessive ou irrégulière.......................A",
-          "une pression légèrement supérieure.......................B",
-          "la présence de valves.......................C"
+          "De 2 millimètres.......................A",
+          "De 1,6 millimètre.......................B",
+          "De moin de 1,6 millimètre.......................C",
+          "De moin de 1 millimètre.......................D"
         ],
         "correct_answer": [
-          "une usure excessive ou irrégulière.......................A"
+          "De moin de 1,6 millimètre.......................C",
+          "De moin de 1 millimètre.......................D"
         ]
       },
       {
         "number": 40,
         "question": "L'assurance indemnisera la victime d'un accident si le conducteur responsable :",
-        "image": "40.jpg",
+        "image": "40.jpeg",
         "type": "multi_boolean",
         "correct_answer": [
-          "NON.......................B",
+          "OUI.......................A",
           "OUI.......................C"
         ],
         "statements": [
@@ -7135,7 +6977,7 @@
             ]
           },
           {
-            "text": "conduit sans lunettes, alors que son permis le prescrit",
+            "text": "conduit sans lunettes, alors que son permis le mentionne 'port de verres correcteurs'",
             "choices": [
               "OUI.......................C",
               "NON.......................D"
@@ -7245,7 +7087,7 @@
           "L'ensemble.......................C"
         ],
         "correct_answer": [
-          "L'ensemble...........B.......................B"
+          "L'ensemble.......................B"
         ]
       },
       {
@@ -7274,7 +7116,8 @@
           "je freine chaque fois que c'est nécessaire.......................C"
         ],
         "correct_answer": [
-          "j'utilise le frein moteur en plus du ralentisseur.......................B"
+          "j'utilise le frein moteur en plus du ralentisseur.......................B",
+                    "je freine chaque fois que c'est nécessaire.......................C"
         ]
       },
       {
@@ -7297,7 +7140,7 @@
         "type": "multi_boolean",
         "correct_answer": [
           "OUI.......................A",
-          "OUI.......................C"
+          "NON.......................D"
         ],
         "statements": [
           {
@@ -7343,7 +7186,8 @@
           "un véhicule de transport en commun.......................D"
         ],
         "correct_answer": [
-          "un véhicule de tourisme.......................C"
+          "un véhicule de tourisme.......................C",
+          "un tricycle ou un quadricycle à moteur.......................A"
         ]
       },
       {
@@ -7436,6 +7280,7 @@
           "le PTRA du tracteur.......................C"
         ],
         "correct_answer": [
+          "le PTAC de la semi-remorque.......................B",
           "le PTRA du tracteur.......................C"
         ]
       },
@@ -7461,11 +7306,11 @@
         "type": "single_choice",
         "choices": [
           "2 triangles de présignalisation.......................A",
-          "1 seul triangle.......................B",
-          "aucun triangle.......................C"
+          "1 seul triangle.......................................B",
+          "aucun triangle........................................C"
         ],
         "correct_answer": [
-          "2 triangles de présignalisation.......................A"
+          "1 seul triangle.......................................B"
         ]
       },
       {
@@ -7502,8 +7347,8 @@
         "image": "22.jpg",
         "type": "multi_boolean",
         "correct_answer": [
-          "OUI.......................A",
-          "OUI.......................C"
+         "NON.......................B",
+          "NON.......................D"
         ],
         "statements": [
           {
@@ -7568,7 +7413,7 @@
         "image": "26.jpg",
         "type": "boolean",
         "correct_answer": [
-          "NON.......................B"
+          "OUI.......................A"
         ],
         "choices": [
           "OUI.......................A",
@@ -7613,7 +7458,8 @@
           "2,50 m.......................D"
         ],
         "correct_answer": [
-          "2,10 m.......................B"
+          "2,20 m.......................C",
+          "2,50 m.......................D"
         ]
       },
       {
@@ -7622,8 +7468,8 @@
         "image": "29.jpg",
         "type": "multi_boolean",
         "correct_answer": [
-          "OUI.......................A",
-          "OUI.......................C"
+          "NON.......................B",
+          "NON.......................D"
         ],
         "statements": [
           {
@@ -7648,8 +7494,8 @@
         "image": "30.jpg",
         "type": "multi_boolean",
         "correct_answer": [
-          "OUI.......................A",
-          "NON.......................D"
+          "NON.......................B",
+          "OUI.......................C"
         ],
         "statements": [
           {
@@ -7723,7 +7569,7 @@
       },
       {
         "number": 35,
-        "question": "Le frein de service (ou frein principal) est actionné et agit ainsi :",
+        "question": "Le frein de service (ou frein principal) est actionné :",
         "image": "35.jpg",
         "type": "multi_boolean",
         "correct_answer": [
@@ -7732,17 +7578,17 @@
         ],
         "statements": [
           {
-            "text": "par le pied du conducteur",
+            "text": " ",
             "choices": [
-              "OUI.......................A",
-              "NON.......................B"
+              "par le pied du conducteur.......................A",
+              "par la main du conducteur.......................B"
             ]
           },
           {
-            "text": "sur l'ensemble des roues",
+            "text": "Il agit :",
             "choices": [
-              "OUI.......................C",
-              "NON.......................D"
+              "Sur les roues motrices seulement.......................C",
+              "Sur l'ensemble des roues.......................D"
             ]
           }
         ]
@@ -7759,7 +7605,7 @@
           "150 mètres au moins.......................D"
         ],
         "correct_answer": [
-          "30 mètres au moins.......................A"
+          "100 mètres au moins.......................C"
         ]
       },
       {
@@ -7795,7 +7641,7 @@
         "type": "multi_boolean",
         "correct_answer": [
           "NON.......................B",
-          "OUI.......................C"
+          "NON.......................D"
         ],
         "statements": [
           {
@@ -7818,35 +7664,16 @@
         "number": 39,
         "question": "Lorsqu'un camion-citerne transporte une matière dangereuse, des plaques étiquettes de danger doivent être placées :",
         "image": "39.jpg",
-        "type": "multi_boolean",
+        "type": "boolean",
         "correct_answer": [
-          "NON.......................B",
-          "OUI.......................C",
-          "OUI.......................E"
+          "à l'avant du véhicule.......................A",
+"sur chaque côté.......................C"
         ],
-        "statements": [
-          {
-            "text": "à l'avant du véhicule",
-            "choices": [
-              "OUI.......................A",
-              "NON.......................B"
+                  "choices": [
+              "à l'avant du véhicule.......................A",
+              "à l'arrière.......................B",
+              "sur chaque côté.......................C"
             ]
-          },
-          {
-            "text": "à l'arrière",
-            "choices": [
-              "OUI.......................C",
-              "NON.......................D"
-            ]
-          },
-          {
-            "text": "sur chaque côté",
-            "choices": [
-              "OUI.......................E",
-              "NON.......................F"
-            ]
-          }
-        ]
       },
       {
         "number": 40,
@@ -7855,7 +7682,7 @@
         "type": "multi_boolean",
         "correct_answer": [
           "NON.......................B",
-          "OUI.......................C"
+          "NON.......................D"
         ],
         "statements": [
           {
@@ -7899,6 +7726,7 @@
           "90.......................D"
         ],
         "correct_answer": [
+          "70.......................B",
           "80.......................C"
         ]
       },
@@ -7914,6 +7742,7 @@
           "un feu jaune.......................D"
         ],
         "correct_answer": [
+            "un dispositif réfléchissant rouge.......................B",
           "un feu rouge.......................C"
         ]
       },
@@ -7928,7 +7757,8 @@
           "supérieur à 15 tonnes.......................C"
         ],
         "correct_answer": [
-          "inférieur à 15 tonnes.......................A"
+          "inférieur à 15 tonnes.......................A",
+          "égal à 15 tonnes.......................B"
         ]
       }
     ]

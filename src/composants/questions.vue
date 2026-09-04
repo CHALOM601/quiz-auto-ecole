@@ -77,9 +77,7 @@ const questions = props.page.questions
 .button2{
   margin-left: auto;
   display: block;
-  background: rgb(19, 23, 31);
   opacity: 0.8;
-  color: rgb(1, 114, 173);
   transition: .8s;
 
 } 
@@ -87,24 +85,12 @@ const questions = props.page.questions
 .button1{
   margin-right: auto;
   display: block;
-  background: rgb(19, 23, 31);
   opacity: 0.8;
-  color: rgb(1, 114, 173);
   transition: .8s;
 
 } 
 
-.button2:hover{
-  background:rgb(1, 114, 173);
-  opacity: 1;
-  color:white;
-}
 
-.button1:hover{
-  background:rgb(1, 114, 173);
-  opacity: 1;
-  color:white;
-}
 
 
 .button2:active , .button1:active{

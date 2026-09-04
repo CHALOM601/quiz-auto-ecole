@@ -34,8 +34,6 @@
         :retirerReponse="retirerReponse"
       />
 
-      <!-- {{ props.page.questions[etape].correct_answer }} -->
-
     </div>
   </div>
 

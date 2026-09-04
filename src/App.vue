@@ -171,16 +171,11 @@ h1{
 }
 
 .premierePage button{
-  background: rgb(19, 23, 31);
   opacity: 0.8;
-  color: rgb(1, 114, 173);
   transition: .8s;
 }
 
-.premierePage button:hover{
-  background:rgb(1, 114, 173, 0.5);
-  color:white;
-}
+
 
 .premierePage h1{
   margin-bottom: 20px;
